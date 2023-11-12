@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-white);
+  margin: 0;
+  padding: 0;
+}
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcome-section > p {
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: italic;
+  color: var(--main-red);
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3em;
+  background: var(--main-blue);
+  
+} 
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+
+li{
+  list-style: none;
+}
+
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+h1 { 
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--main-white);
+}
+h2 {
+  font-size: 4.2rem;
+}
+@media (max-width: 800px){
+  h2{
+    font-size: 2.5rem;
+  }
+  #contact-links{
+    font-size: 1.5rem;
+  }
+}
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-blue);
+}
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.projects {
+  background: var(--main-gray);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  text-align: center;
+  padding: 10rem 2rem; 
+}
+.projects > h2 {
+  font-size:3.2rem;
+  color:var(--main-white);
+}
+.project-image{
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+.project-title{
+  color:var(--main-white);
+  width: 100%;
+  background-color: #303841;
+  padding: 2em 0;
+  margin: 0;
+}
+.btn-show-all {
+  font-size: 2rem;
+  background: var(--main-gray);
+  transition: background 0.3s ease-out;
+}
+.btn-show-all > i {
+  margin-left: 10px;
+  font-size: 2rem;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+a {
+  text-decoration: none;
+  color: var(--main-white);
+  font-size: 1.5em;
+  padding: 1rem 1.5rem;
+}
+a:hover {
+ background-color: #bd583f;
+ 
+}
+.fa, .fab, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free";
+}
+.fa, .fas {
+  font-weight: 900;
+}
+#contact {
+   background-color: #303841;
+   width: 100%;
+   height: 80vh;
+   padding: 1rem 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#contact > h2 {
+  color: var(--main-white);
+  font-size: 5rem;
+
+}
+
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+#contact > p{
+  color: var(--main-white);
+  font-style: italic;
+  font-weight: 100;
+  text-align:center;
+  font-size: 1.7rem;
+}
+.footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: var(--main-gray);
+  border-top: 4px solid var(--main-red);
+  margin: 2rem;
+}
