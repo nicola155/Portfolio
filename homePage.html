@@ -3,14 +3,20 @@
   <head>
     <title>Personal Portfolio Webpage</title>
     <link rel="stylesheet" href="stylesTwo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
   </head>
   <body>
+  <!-- box-icon -->
     <nav id="navbar" class="nav">
+      <a href="#" class="logo" >Edris.</a>
+      <div class="bx bx-menu" id="menu-icon">
+
+      </div>
       <ul class="nav-list">
         <li>
-          <a href="#home">Home</a>
+          <a href="#welcome-section" class="active">Home</a>
         </li>
         <li>
           <a href="#my-journey">My Journey</a>
@@ -24,12 +30,49 @@
       </ul>
     </nav>
 
-
+ 
     <section id="welcome-section" class="welcome-section">
-      <img class="project-image" src="my_profile.png" alt="profile_pic">
-      <h1>Hey, I am Edris C. Badron Jr</h1>
-      <p>a mechanical engineer and a web developer</p>
+      <div class="welcome-content">
+        <h1>Hello, I'm <span> Edris Badron Jr. </span></h1>
+        <div class="text-animate">
+          <h3>A mechanical engineer and a web developer</h3>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam natus possimus nesciunt unde libero ducimus adipisci facilis. Nobis in expedita voluptates error numquam. Explicabo tempora quam id, nobis veniam ipsum!
+        </p>
+        <div class="btn-box">
+          <a href="#" class="btn">Hire Me</a>
+          <a href="#" class="btn">Let's Talk</a>
+
+        </div>
+        <div class="home-sci">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-github' ></i></a>
+          <a href="#"><i class='bx bxl-linkedin-square'  ></i></a>
+
+        </div>
+      </div>
+      
     </section>
+    <section id="my-journey" class="my-journey-section">
+      <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+          <img src="my_profile.png" alt="">
+          <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+              <h3>Frontend Developer</h3>        
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam natus possimus nesciunt unde libero ducimus adipisci facilis. Nobis in expedita voluptates error numquam. Explicabo tempora quam id, nobis veniam ipsum!
+        </p>
+        <div class="btn-box btns">
+           <a href='#' class="btn">Read More</a> 
+        </div>
+      </div>
+    </section>
+
 
 
 
@@ -94,14 +137,14 @@
     <section id="contact" class="contact-section">
       <div class="contact-section-header">
         <h2>Let's work together...</h2>
-        <p>How do you take your coffee?</p>
+        <p>You can contact me through this options...</p>
       </div>
       <div class="contact-links">
-        <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
-        <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
-        <a href="https://twitter.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
-        <a href="mailto:example@example.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
-        <a href="tel:555-555-5555" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+        <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i class='bx bxl-facebook'></i> Facebook</a>
+        <a href="https://github.com/nicola155" target="_blank" class="btn contact-details"><i class='bx bxl-github' style='color:#ffffff' ></i> GitHub</a>
+        <a href="#" target="_blank" class="btn contact-details"><i class='bx bxl-linkedin-square' style='color:#ffffff' ></i> LinkedIn</a>
+        <a href="https://mail.google.com/mail" class="btn contact-details"><i class='bx bxl-gmail' ></i> Send an email</a>
+        <a href="tel:555-555-5555" class="btn contact-details"><i class='bx bxs-phone-call' style='color:#ffffff' ></i> Call me</a>
       </div>
     </section>
 
@@ -119,6 +162,6 @@
 
   
 
-
+    
   </body>
 </html>
