@@ -57,6 +57,10 @@ body{
   font-weight: 400;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.nav-list #menu-icon {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 
 #menu-icon {
   font-size: 3.6rem;
