@@ -456,3 +456,11 @@ footer {
   border-top: 4px solid var(--main-red);
   margin: 2rem;
 }
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 5rem;
+}
