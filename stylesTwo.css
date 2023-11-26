@@ -99,6 +99,7 @@ h2 {
   #contact-links{
     font-size: 1.5rem;
   }
+ 
 }
 
 section{
@@ -111,6 +112,7 @@ section{
   padding: 0 9%;
   background: url('Grey-Floorplan-Background-Town1.jpg') no-repeat;
   background-size: cover;
+  
 
 }
 
@@ -289,6 +291,7 @@ span{
   font-size: 2rem;
   border-radius: 10%;
 }
+
 
 .btn-show-all {
   font-size: 2rem;
