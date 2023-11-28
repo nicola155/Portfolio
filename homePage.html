@@ -68,7 +68,7 @@
       <h2 class="heading">About <span> Me</span> </h2>
       <div class="About">
         <div class="about-img">
-          <img src="my_profile.png" alt="">
+          <img src="all_image/my_profile.png" alt="">
           <span class="circle-spin"></span>
         </div>
         <div class="about-content">
@@ -223,64 +223,22 @@
 
     <!-- My Certificates -->
 
-    <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">My Certificates</h2>
-
-      <div class="projects-grid">
-        <a  target="_blank" class="project project-tile">
-          <img class="project-image" src="JavaScript_Essentials_1_Badge20231024-29-zg8eah.jpg" alt="project">
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            JavaScript Certificates
-            <span class="code">/&gt;</span>
-          </p>
-        </a>
-        <a  target="_blank" class="project project-tile">
-          <img class="project-image" src="Python_Essentials_1_Badge20231024-29-pf2vme.jpg" alt="project">
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Python Certificates
-            <span class="code">/&gt;</span>
-          </p>
-        </a>
-        <a  target="_blank" class="project project-tile">
-          <img class="project-image" src="Freecodecamp_certificate_web_dev.png" alt="project">
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Responsive Web Design - FreeCodeCamp
-            <span class="code">/&gt;</span>
-          </p>
-        </a>
-        <a  target="_blank" class="project project-tile">
-          <img class="project-image" src="Python_Certificate_From_Google_by_Coursera.jpg" alt="project">
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Python Certificates from Google
-            <span class="code">/&gt;</span>
-          </p>
-        </a>
-        <a  target="_blank" class="project project-tile">
-          <img class="project-image" src="Software_Testing_using_selenium_and_cucumber.jpg" alt="project">
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Software Testing using Selenium and Cucumber
-            <span class="code">/&gt;</span>
-          </p>
-        </a>
-        <a  target="_blank" class="project project-tile">
-          <img class="project-image" src="AAC certificates.jpg" alt="project">
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            My Certificate of employment in 
-            <span class="code">/&gt;</span>
-            <span class="code">&lt;</span>
-            AAC OPTICS Philippines
-            <span class="code">/&gt;</span>
-          </p>
-        </a>
+    <section id="certificates" class="certificates-section">
+      <h2 class="certificates-section-header">My Certificates</h2>
+      <div class="gallery">
+        <img class="thumbnail" src="all_image/Freecodecamp_certificate_web_dev.png" alt="Image 1" onclick="openModal('all_image/Freecodecamp_certificate_web_dev.png')">
+        <img class="thumbnail" src="all_image/JavaScript_Essentials_1_Badge20231024-29-zg8eah.jpg" alt="Image 2" onclick="openModal('all_image/JavaScript_Essentials_1_Badge20231024-29-zg8eah.jpg')">
+        <img class="thumbnail" src="all_image/Python_Certificate_From_Google_by_Coursera.jpg" alt="Image 3" onclick="openModal('all_image/Python_Certificate_From_Google_by_Coursera.jpg')">
+        <img class="thumbnail" src="all_image/Python_Essentials_1_Badge20231024-29-pf2vme.jpg" alt="Image 4" onclick="openModal('all_image/Python_Essentials_1_Badge20231024-29-pf2vme.jpg')">
+        <img class="thumbnail" src="all_image/Software_Testing_using_selenium_and_cucumber.jpg" alt="Image 5" onclick="openModal('all_image/Software_Testing_using_selenium_and_cucumber.jpg')">
+       
       </div>
-
-      <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">Show all<i class="fas fa-chevron-right"></i></a>
+      <div id="myModal" class="modal">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <img class="modal-content" id="modalImg">
+      </div>
+      
+      <script src="script.js"></script>
     </section>
 
     <!-- projection section -->
