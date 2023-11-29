@@ -240,6 +240,15 @@ span{
   background: var(--main-dark-gray);
 }
 
+.other_certificates-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-dark-gray);
+  margin:0;
+  padding: 0;
+  min-height:1500px;
+  box-sizing: border-box;
+}
 
 .certificates-section {
   text-align: center;
