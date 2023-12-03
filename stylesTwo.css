@@ -168,15 +168,12 @@ section{
   padding: 0 9%;
   background: url('all_image/Grey-Floorplan-Background-Town1.jpg') no-repeat;
   background-size: cover;
-  
-
 }
 
 .welcome-content > p {
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
   font-weight: 100;
-  
   color: var(--main-white);
 }
 .welcome-content h1 {
