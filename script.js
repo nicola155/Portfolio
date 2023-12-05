@@ -11,7 +11,7 @@ function closeModal() {
 }
 
 
-// Open the gmail for contact me
+// Open the gmail for contact me and lets talk
 document.getElementById("openGmailPopupBtn").addEventListener("click", function() {
    
     var emailAddress = "kalbojakerss123@gmail.com";
