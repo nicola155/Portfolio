@@ -11,8 +11,24 @@ function closeModal() {
 }
 
 
-// Open the gmail for contact me and lets talk
+// Open the gmail for lets talk
 document.getElementById("openGmailPopupBtn").addEventListener("click", function() {
+   
+    var emailAddress = "kalbojakerss123@gmail.com";
+    var subject = "Your Topic";
+    var body = "Your email body content";
+
+   
+    var gmailComposeUrl = "https://mail.google.com/mail/?view=cm&to=" + encodeURIComponent(emailAddress) +
+                          "&su=" + encodeURIComponent(subject) +
+                          "&body=" + encodeURIComponent(body);
+
+    
+    window.open(gmailComposeUrl, "_blank");
+  });
+
+// Open the gmail for contact me
+document.getElementById("openGmailPopupBtn2").addEventListener("click", function() {
    
     var emailAddress = "kalbojakerss123@gmail.com";
     var subject = "Your Topic";
