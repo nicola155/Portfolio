@@ -50,7 +50,7 @@ body{
   display: flex;
   list-style: none;
   position: relative;
-  background-color: var(--main-dark-green);
+  background-color: var(--main-blue);
   
 }
 
