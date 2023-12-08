@@ -457,9 +457,9 @@ span{
   text-align: center;
   width: 18rem;
   height: 100%;
-  background-color: var(--main-dark-green);
+  background-color: var(--main-blue);
   border-radius: 20%;
-  border: .2rem solid var(--main-dark-green);
+  border: .2rem solid var(--main-blue);
   font-weight:600;
   font-size: 2rem;
   letter-spacing: .1rem;
