@@ -456,7 +456,7 @@ span{
   text-align: center;
   width: 18rem;
   height: 100%;
-  background-color: var(--main-light-blue);
+  background-color: var(--main-blue);
   border-radius: 20%;
   border: .2rem solid var(--main-blue);
   font-weight:600;
