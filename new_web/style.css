@@ -22,7 +22,6 @@ nav {
 .logo {
     width: 180px;
     cursor: pointer;
-
 }
 nav ul{
     width: 100%;
@@ -31,16 +30,15 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin: 10px 20;
 }
 
 nav ul li a { 
-    font-size: 1rem;
+    font-size: 0.8rem;
     color:#fff;
     text-align: right;
     transition: 0.15s ease-in-out;
     position:relative;
-    text-transform: uppercase;
+   
   }
   
 nav ul li a::after {
