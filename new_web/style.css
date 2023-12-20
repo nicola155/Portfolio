@@ -54,13 +54,7 @@ background-color:#fff;
 transition: 0.15s ease-in-out;
 }
 nav ul li a:hover::after {width: 100%;}
-@media(max-width: 600px){
-  nav ul li {
-    display: flex;
-    text-align: bottom;
-    font-size: small;
-  }
-}
+
 
 .btn {
     display: flex;
