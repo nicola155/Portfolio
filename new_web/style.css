@@ -25,7 +25,6 @@ nav {
 
 }
 nav ul{
-    list-style: none;
     width: 100%;
     text-align: right;
     padding-right: 60px;
@@ -34,10 +33,35 @@ nav ul li{
     display: inline-block;
     margin: 10px 20;
 }
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
+
+nav ul li a { 
+    font-size: 1rem;
+    color:#fff;
+    text-align: right;
+    transition: 0.15s ease-in-out;
+    position:relative;
+    text-transform: uppercase;
+  }
+  
+nav ul li a::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0;
+height: 1px;
+background-color:#fff;
+transition: 0.15s ease-in-out;
 }
+nav ul li a:hover::after {width: 100%;}
+@media(max-width: 600px){
+  nav ul li {
+    display: flex;
+    text-align: bottom;
+    font-size: small;
+  }
+}
+
 .btn {
     display: flex;
     align-items: center;
@@ -71,4 +95,15 @@ nav ul li a{
     border-radius: 5px;
     padding: 10px;
     margin-top: 30px;
+}
+.content form input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
 }
