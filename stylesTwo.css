@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;  
+  box-sizing: inherit;
+  
+  
 }
 *, ::before, ::after {
   box-sizing: inherit;
@@ -51,6 +53,8 @@ body{
   background-color: var(--main-blue);
   
 }
+
+
 .menu {
   position: absolute;
   right: 0;
