@@ -99,3 +99,6 @@ nav ul li a:hover::after {width: 100%;}
     font-size: 15px;
     padding: 10px 30px;
 }
+#resultContainer {
+    margin: 20px;
+}
