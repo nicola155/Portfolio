@@ -19,7 +19,6 @@
                 <img src="images/icon.png">Bookings
             </button>
         </nav>
-
         <div class="content">
              <h1>Best Places <br>To Visit</h1>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tempora temporibus sed illum accusamus velit placeat, quis, cupiditate rem exercitationem voluptate et voluptatum laboriosam quas quidem neque ducimus? Aperiam, consequatur?</p>
@@ -27,9 +26,14 @@
                 <input type="text" id="searchInput" placeholder="Search for a country...">
                 <button onclick="searchCountry()" class="btn">Search</button>
              </form>
-             <div id="resultContainer">
-                <!-- Results will be displayed here -->
-            </div>
+
+             <template data-user-template>
+                <div class="card">
+                    <div class="header" data-header>My name</div>
+                    <div class="body" data-body></div>
+                </div>
+            </template>
+            
         </div>
     </div>
     <script src="script.js"></script>
