@@ -16,7 +16,6 @@ function searchCountry() {
         country.capital.toLowerCase().includes(searchInput) ||
         country.population.toLowerCase().includes(searchInput)
     );
-
     // Display the results
     displayResults(results);
 }
