@@ -21,7 +21,7 @@ function displayResults(results) {
         const countryDiv = document.createElement("div");
         countryDiv.classList.add("country-card");
 
-       
+
         countryDiv.innerHTML = `
             <h3>${country.name}</h3>
             <p>Capital: ${country.capital}</p>
